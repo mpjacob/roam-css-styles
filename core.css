@@ -2,14 +2,12 @@
 Theme:      Core Theme for Aquae, Nox, & Lux Roam themes
 Version:    1.0.5
 By:         Cal Robert Lee (https://www.calrobert.com/)
-
 Quickfix:   - fixed topbar positioning
             - fixed bottom padding
             - fixed search position, thanks diverbroski!
             - fixed search results alignment
             - hid nonfunctional close sidebar button
             - added pomo
-
 Notes:      - Thanks to the supportive people on r/RoamResearch, GitHub and Twitter!
             - I have been changing a lot of thing in my professional career! Which is the reason for some of the delays
             - Super excited to have been selected to be on RoamResearch's Official theme's page!
@@ -55,7 +53,7 @@ Notes:      - Thanks to the supportive people on r/RoamResearch, GitHub and Twit
     font-family: var(--main-font);
     color: var(--main-font-color) !important;
 }
-  
+
 /*---------------------------------- 
     #LINKS
 ------------------------------------*/
@@ -313,7 +311,7 @@ span.cm-qualifier {
     border-radius: var(--reference-item-border-radius);
     border: var(--reference-item-border)
 }
-
+  
 /*---------------------------------- 
     #APP MAIN
 ------------------------------------*/
@@ -342,7 +340,7 @@ div.roam-center > div:first-child[style*="padding-left: calc((100% - 1032px) / 2
 .roam-body .roam-app .roam-body-main {
     flex: 0 0 calc(100% - 0px);
 }
-
+@media only screen and (min-width: 768px)  {
 /*---------------------------------- 
     #LEFT SIDEBAR   
 ------------------------------------*/
@@ -607,7 +605,7 @@ span.bp3-icon.bp3-icon-chevron-right,
     color: #DCDEDD !important;
     border-bottom: none !important;
   }
-  
+}  
 /*---------------------------------- 
     #ALL PAGES
 ------------------------------------*/
@@ -922,7 +920,7 @@ padding:  var(--s1);
     color: var(--pomo-break-font-color) !important;
 }
 
-
+@media only screen and (min-width: 768px)  {
 /*------------------------------------------------------------------------
     CODE BELOW FROM AZLEN ELZA's ZENITH THEME — ADDS CENTERED SEARCH
     MINOR EDITS BY CAL ROBERT LEE (VISUAL, KERNING, and POSITION EDITS)
@@ -1152,4 +1150,5 @@ padding:  var(--s1);
 .rm-find-or-create-wrapper .bp3-transition-container {
     transform: none !important;
 }
+  }  
 }
